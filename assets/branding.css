@@ -1,0 +1,115 @@
+/* Crop only the emblem in the browser; keep the original artwork intact. */
+.site-brand, .site-footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+}
+.brand-emblem {
+  display: block;
+  flex: 0 0 auto;
+  width: 76px;
+  height: 76px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.brand-emblem img {
+  display: block;
+  width: 150%;
+  height: auto;
+  max-width: none;
+  transform: translate(-16.667%, -2%);
+}
+.brand-words { display: flex; flex-direction: column; gap: 5px; }
+.brand-name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1;
+  color: #3b144c;
+  white-space: nowrap;
+}
+.brand-tagline {
+  font-family: 'Jost', sans-serif;
+  font-size: 10px;
+  letter-spacing: .32em;
+  line-height: 1.3;
+  color: #946019;
+}
+.brand-motto {
+  font-family: 'Jost', sans-serif;
+  font-size: 8px;
+  letter-spacing: .18em;
+  line-height: 1.3;
+  color: #946019;
+}
+.site-footer-brand { gap: 12px; margin-bottom: 20px; }
+.site-footer-brand .brand-emblem { width: 64px; height: 64px; }
+.site-footer-brand .brand-name { color: #eee7dc; font-size: 26px; }
+.site-footer-brand .brand-tagline, .site-footer-brand .brand-motto { color: #d5aa50; }
+.site-brand:focus-visible, .site-footer-brand:focus-visible {
+  outline: 2px solid #946019;
+  outline-offset: 5px;
+}
+@media (max-width: 639px) {
+  .site-brand { gap: 10px; }
+  .site-brand .brand-emblem { width: 58px; height: 58px; }
+  .site-brand .brand-name { font-size: 25px; }
+  .site-brand .brand-tagline { font-size: 8px; }
+  .site-brand .brand-motto { font-size: 6.5px; }
+}
+
+/* A calm ivory enquiry section leads into the deep plum footer. */
+#book {
+  background: #f3eee6;
+  color: #3b144c;
+  border-top: 1px solid #dccba9;
+}
+#book > div[style] {
+  background: radial-gradient(ellipse at 15% 0%, #e4c88b33, transparent 65%) !important;
+}
+#book h2 { color: #3b144c; }
+#book h2 .italic { color: #946019; }
+#book [class*="text-shell"] { color: #65556b; }
+#book .eyebrow, #book label { color: #73541f; }
+#book svg { color: #a37b32; }
+#book [class*="border-shell"] { border-color: #d1c2aa; }
+#book form { text-align: left; }
+#book input, #book select, #book textarea {
+  background: #fcfaf6;
+  color: #3b144c;
+  border: 1px solid #cbbdce;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px #3b144c03;
+}
+#book input::placeholder, #book textarea::placeholder { color: #827587; opacity: 1; }
+#book input:focus, #book select:focus, #book textarea:focus {
+  border-color: #946019;
+  outline: 2px solid #94601926;
+  outline-offset: 2px;
+}
+#book select option { background: #fcfaf6; color: #3b144c; }
+#book [class*="text-aubergine"] { color: #923a49; }
+#book input.border-aubergine, #book select.border-aubergine, #book textarea.border-aubergine { border-color: #923a49; }
+#book button[type="submit"] {
+  color: #faf5e9;
+  background: #3b144c;
+  border: 1px solid #3b144c;
+  border-radius: 3px;
+  box-shadow: 0 4px 12px #3b144c15;
+}
+#book button[type="submit"]:hover { background: #542565; border-color: #946019; }
+#book a { color: #3b144c; }
+#book a:hover, #book button:not([type="submit"]):hover { color: #946019; }
+#book .border-t { border-color: #d8c9ac; }
+.site-footer { background: #26132f; color: #f3ede3; border-top: 2px solid #b58b41; }
+.site-footer > div[style] { background: none !important; }
+.site-footer > svg { opacity: .35; }
+.site-footer [class*="text-cream/"] { color: #c9becd; }
+.site-footer .eyebrow { color: #d5b474; }
+.site-footer .border-t { border-color: #d5b47433; }
+.site-footer a:hover { color: #ebcb89; }
+.site-footer a[class*="w-10"] { color: #d5b474; border-color: #d5b47455; }
+.site-footer a[class*="w-10"]:hover { background: #d5b474; color: #26132f; }
+.site-footer .brand-name { color: #f3ede3; }
+.site-footer .brand-tagline, .site-footer .brand-motto { color: #d5b474; }
