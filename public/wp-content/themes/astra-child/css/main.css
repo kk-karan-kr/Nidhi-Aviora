@@ -1,0 +1,57 @@
+
+.product_cat_sidelist{
+  list-style-type: none;
+  margin-left: 0;
+  border: 1px solid #ffdeab;
+}
+
+.product_cat_sidelist li{
+    padding: 5px 20px;
+    text-transform: capitalize;
+
+}
+
+.normal_li{
+  display: none;
+  text-transform: capitalize;
+}
+
+
+.product_cat_sidelist .main_li{
+text-transform: uppercase;
+background: #ffdeab;
+padding: 10px 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.product_cat_sidelist .main_li:hover{
+  cursor: pointer;
+}
+.product_cat_sidelist li a{
+color:#3b3b3b;
+
+}
+
+
+.podcast_cats_badge{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: -30px;
+}
+
+.podcast_cats_badge a{
+  margin-right: 10px;
+  color: #373737;
+  background-color: #e4e4e4;
+  padding: 5px 10px 5px 10px;
+  white-space: nowrap;
+  word-break: break-all;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+

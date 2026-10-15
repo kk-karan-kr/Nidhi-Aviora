@@ -1,0 +1,18 @@
+.elementor-9587 .elementor-element.elementor-element-db9ea26:not(.elementor-motion-effects-element-type-background), .elementor-9587 .elementor-element.elementor-element-db9ea26 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FDEED6;}.elementor-9587 .elementor-element.elementor-element-db9ea26{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:25px 10px 25px 10px;}.elementor-9587 .elementor-element.elementor-element-db9ea26 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-9587 .elementor-element.elementor-element-5af5f97{text-align:center;}.elementor-9587 .elementor-element.elementor-element-5af5f97 .elementor-heading-title{font-family:"Brandon", Sans-serif;font-size:15px;line-height:20px;letter-spacing:0px;color:#000000;}.elementor-9587 .elementor-element.elementor-element-ebc8f90{text-align:center;}.elementor-9587 .elementor-element.elementor-element-ebc8f90 .elementor-heading-title{font-family:"Brandon", Sans-serif;font-size:15px;line-height:20px;letter-spacing:0px;color:#000000;}.elementor-theme-builder-content-area{height:400px;}.elementor-location-header:before, .elementor-location-footer:before{content:"";display:table;clear:both;}/* Start custom CSS */#sbi_images .sbi_item:nth-child(n+4) {display: none !important;}
+.mob-mb-0 p {margin-bottom:0 !important;}
+#sb_instagram.sbi_col_4 #sbi_images .sbi_item {padding: 0 !important; width: 33.3333%;}
+div#sb_instagram { padding: 0 !important;}
+#sb_instagram #sbi_images {padding: 0 !important;}
+a.sbi_photo.sbi_imgLiquid_bgSize.sbi_imgLiquid_ready {height: 300px !important;}
+@media only screen and (max-width:1024px) {
+a.sbi_photo.sbi_imgLiquid_bgSize.sbi_imgLiquid_ready {height: 290px !important;}
+}
+@media only screen and (max-width:800px) {
+a.sbi_photo.sbi_imgLiquid_bgSize.sbi_imgLiquid_ready { height: 270px !important;}
+}
+@media only screen and (max-width:767px) {
+a.sbi_photo.sbi_imgLiquid_bgSize.sbi_imgLiquid_ready {height: 250px !important;}
+}
+@media only screen and (max-width:480px) {
+a.sbi_photo.sbi_imgLiquid_bgSize.sbi_imgLiquid_ready {height: 300px !important;}
+}/* End custom CSS */

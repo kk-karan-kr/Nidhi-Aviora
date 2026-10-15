@@ -30,3 +30,7 @@ coverage/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Previous design and user-provided import material (not deployment assets)
+.previous-mockup/
+*-source-code

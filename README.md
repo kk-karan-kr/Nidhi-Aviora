@@ -1,13 +1,13 @@
 # Niddhi Aviora
 
-Run `npm run dev`, then open http://localhost:3000. No installation or build is required.
+Run `npm run dev` and open http://localhost:3000. The local server serves `public/`; no dependency installation or build is needed. Vercel uses the Other preset with `public` as the output directory, as declared in `vercel.json`.
 
-Preserves the reference site's compiled React application, original CSS, images, and favicon. Design Arena recording/editor scripts have been removed. Google Fonts requires internet access.
+The homepage retains the supplied reference's section order, beige/tan/cream palette, textured backgrounds, decorative artwork and locally served fonts. Client content is in `public/index.html`. Each section uses a repaired content layout, with responsive grids, readable headings, correctly sized images and no inherited overlapping columns. The empty video section is removed.
 
-The deployed reference does not expose original React/TypeScript component source; assets/ contains production bundles. Contact form validation and confirmation are simulated, with no backend delivery. Some footer links are placeholders inherited from the reference.
+Layout repairs and responsive header/footer styles are in `public/local.css`. Mobile navigation, service selection and preview enquiry behavior are in `public/local.js`. The original section background styles remain in the locally saved layout stylesheet. Root `index.html` mirrors the homepage.
 
-For static hosting, upload index.html, favicon.svg, assets/, and images/.
+The page uses the supplied client brand, logo, tagline and six services. It does not invent credentials, testimonials, results, addresses or social profiles. The existing portrait images are mockup placeholders and should be replaced with approved client photographs before publication.
 
-Branding uses nidhi-logo.jpeg in the navigation and footer; include this file when deploying. Logo sizing is in assets/branding.css.
+Enquiry delivery is not connected. Fields are validated and the interface explicitly states that nothing is sent or stored. Add verified contact details and a chosen form backend before accepting live enquiries.
 
-The site palette uses logo-inspired ivory (#f7f4ef), deep plum (#3b144c), purple (#6b367b), and gold (#946019 / #d5aa50), including translucent effects and SVG textures.
+Earlier implementations are preserved in the ignored `.previous-mockup/` folder. Source exports are excluded from deployment. Asset, anchor, syntax and HTTP checks have passed; browser visual verification is unavailable in this environment.
