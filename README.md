@@ -1,13 +1,23 @@
 # Niddhi Aviora
 
-Run `npm run dev` and open http://localhost:3000. The local server serves `public/`; no dependency installation or build is needed. Vercel uses the Other preset with `public` as the output directory, as declared in `vercel.json`.
+Run `npm run dev` and open http://localhost:3000. No dependency installation or build is required. The server serves only `public/`. Vercel's Other preset uses the included `vercel.json`, with `public` as its output directory.
 
-The homepage retains the supplied reference's section order, beige/tan/cream palette, textured backgrounds, decorative artwork and locally served fonts. Client content is in `public/index.html`. Each section uses a repaired content layout, with responsive grids, readable headings, correctly sized images and no inherited overlapping columns. The empty video section is removed.
+## Design and source
 
-Layout repairs and responsive header/footer styles are in `public/local.css`. Mobile navigation, service selection and preview enquiry behavior are in `public/local.js`. The original section background styles remain in the locally saved layout stylesheet. Root `index.html` mirrors the homepage.
+The page keeps the approved warm, earthy direction and Niddhi's client content, with an independently implemented visual treatment. Newly generated handmade paper, a celestial eye and gold botanical ornaments restore the approved richly decorated atmosphere, alongside a new client seal and a sand/cream/bronze palette. Imported artwork and theme files remain excluded. Typography uses system fonts; no font files are distributed.
 
-The page uses the supplied client brand, logo, tagline and six services. It does not invent credentials, testimonials, results, addresses or social profiles. The existing portrait images are mockup placeholders and should be replaced with approved client photographs before publication.
+- `public/index.html`: standalone client page.
+- `public/theme.css`: project-authored theme and responsive layouts.
+- `public/decor.css`: textured surfaces and regenerated decorative elements.
+- `public/art/generated/`: generated paper, celestial eye and botanical images.
+- `public/site.js`: mobile navigation, service selection and preview form behavior.
+- `public/art/`: original SVG drawings.
+- `public/client-images/`: supplied logo and retained mockup images.
 
-Enquiry delivery is not connected. Fields are validated and the interface explicitly states that nothing is sent or stored. Add verified contact details and a chosen form backend before accepting live enquiries.
+See `GENERATED-ART.md` for exact image prompts and saved paths. See `ASSET-PROVENANCE.md` for the asset inventory and source notes. Previous imports are archived in the ignored `.previous-mockup/` folder, outside the served/deployed directory.
 
-Earlier implementations are preserved in the ignored `.previous-mockup/` folder. Source exports are excluded from deployment. Asset, anchor, syntax and HTTP checks have passed; browser visual verification is unavailable in this environment.
+## Remaining client setup
+
+Portraits are illustrative mockup images, not verified client photographs. Approve the retained images' rights or replace them with approved client assets before publication. Enquiry delivery is not connected; the preview form explicitly states that no information is sent or stored. Add verified contact information and the chosen form backend before accepting live enquiries.
+
+Asset, anchor, syntax and HTTP checks are supported locally. Visual browser verification is unavailable in this environment.

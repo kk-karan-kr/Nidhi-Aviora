@@ -1,44 +1,12 @@
 'use strict';
-const toggle = document.querySelector('.menu-toggle');
-const navigation = document.querySelector('#navigation');
-function closeMenu() {
-  toggle.setAttribute('aria-expanded', 'false');
-  toggle.setAttribute('aria-label', 'Open navigation');
-  navigation.classList.remove('is-open');
-}
-toggle.addEventListener('click', () => {
-  const open = toggle.getAttribute('aria-expanded') !== 'true';
-  toggle.setAttribute('aria-expanded', String(open));
-  toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
-  navigation.classList.toggle('is-open', open);
-});
-navigation.addEventListener('click', event => {
-  if (event.target.closest('a')) closeMenu();
-});
-document.addEventListener('keydown', event => {
-  if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
-    closeMenu();
-    toggle.focus();
-  }
-});
-document.addEventListener('click', event => {
-  if (!event.target.closest('.nav-wrap')) closeMenu();
-});
-window.matchMedia('(min-width: 1001px)').addEventListener('change', event => {
-  if (event.matches) closeMenu();
-});
-document.querySelectorAll('[data-service]').forEach(link => {
-  link.addEventListener('click', () => {
-    document.querySelector('#service').value = link.dataset.service;
-  });
-});
-document.querySelector('#enquiry-form').addEventListener('submit', event => {
-  event.preventDefault();
-  const form = event.currentTarget;
-  if (!form.reportValidity()) return;
-  const status = document.querySelector('#form-status');
-  status.textContent = 'Your enquiry is ready. Live delivery is not connected yet, so nothing has been sent or stored. Please keep your message until booking contact details are available.';
-  status.hidden = false;
-  status.focus();
-});
-document.querySelector('#year').textContent = new Date().getFullYear();
+const menuToggle=document.querySelector('.av-menu-toggle');
+const navigation=document.querySelector('#av-navigation');
+function closeMenu(){navigation.classList.remove('is-open');menuToggle.setAttribute('aria-expanded','false');menuToggle.setAttribute('aria-label','Open menu');}
+menuToggle.addEventListener('click',()=>{const open=menuToggle.getAttribute('aria-expanded')!=='true';navigation.classList.toggle('is-open',open);menuToggle.setAttribute('aria-expanded',String(open));menuToggle.setAttribute('aria-label',open?'Close menu':'Open menu');});
+navigation.addEventListener('click',event=>{if(event.target.closest('a'))closeMenu();});
+document.addEventListener('click',event=>{if(!event.target.closest('.av-header'))closeMenu();});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menuToggle.getAttribute('aria-expanded')==='true'){closeMenu();menuToggle.focus();}});
+window.matchMedia('(min-width:1001px)').addEventListener('change',event=>{if(event.matches)closeMenu();});
+document.querySelectorAll('[data-service]').forEach(link=>link.addEventListener('click',()=>{document.querySelector('#client-service').value=link.dataset.service;}));
+document.querySelector('.av-enquiry').addEventListener('submit',event=>{event.preventDefault();const form=event.currentTarget;if(!form.reportValidity())return;const status=form.querySelector('.av-form-status');status.textContent='Your enquiry is ready. Live delivery is not connected yet, so nothing has been sent or stored. Keep your message until booking contact details are available.';status.hidden=false;status.focus();});
+document.querySelector('#client-year').textContent=new Date().getFullYear();

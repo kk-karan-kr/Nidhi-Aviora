@@ -1,0 +1,56 @@
+/* Bespoke image-generated textures and ornamentation for Niddhi Aviora. */
+.av-section{--paper-wash:#fff8e966;background-image:linear-gradient(var(--paper-wash),var(--paper-wash)),url('/art/generated/handmade-paper.png');background-size:auto,1100px auto;background-repeat:repeat;background-position:center}
+.av-section:not(.av-navigation-section){overflow:hidden}
+.av-section>.av-layout{position:relative;z-index:1}
+.av-announcement-section{background-image:linear-gradient(#c6a589cc,#c6a589cc),url('/art/generated/handmade-paper.png')}
+.av-navigation-section{background:#fdf5e9;overflow:visible}
+.av-welcome-section{--paper-wash:#f4dfc246}
+.av-introduction-section{--paper-wash:#fff7e880}
+.av-pillars-section{--paper-wash:#d2b08b88}
+.av-offerings-section{--paper-wash:#fff5e756}
+.av-process-section{--paper-wash:#d7b69288}
+.av-intention-section{--paper-wash:#f7e3c65c}
+.av-hypnotherapy-section{--paper-wash:#fff6e978}
+.av-soul-work-section{--paper-wash:#bd9571aa}
+.av-regression-section{--paper-wash:#f3e1c85c}
+.av-aura-section{--paper-wash:#dfc19d66}
+.av-questions-section{--paper-wash:#fff7eb88}
+.av-enquiries-section{--paper-wash:#d8b48b88}
+.av-footer-section,.av-copyright-section{--paper-wash:#e9d0ac88}
+.av-section::before,.av-section::after{pointer-events:none}
+.av-introduction-section::after,.av-soul-work-section::after,.av-enquiries-section::after,.av-footer-section::before{content:'';position:absolute;width:340px;height:340px;z-index:0;background:url('/art/generated/jasmine-ornament.png') center/contain no-repeat;opacity:.3}
+.av-introduction-section::after{right:-70px;bottom:-20px;transform:scaleX(-1)}
+.av-soul-work-section::after{right:-50px;bottom:0;transform:scaleX(-1);opacity:.4}
+.av-enquiries-section::after{left:-65px;bottom:-10px;opacity:.28}
+.av-footer-section::before{right:-85px;bottom:-85px;transform:scaleX(-1);opacity:.22}
+.av-pillars-section::before{content:'';position:absolute;left:-50px;top:50%;transform:translateY(-50%) rotate(-12deg);width:180px;height:180px;background:url('/art/generated/celestial-eye.png') center/contain no-repeat;opacity:.45}
+.av-offerings-section::after{content:'';position:absolute;right:-35px;top:30px;width:180px;height:180px;background:url('/art/orbit-seal.svg') center/contain no-repeat;opacity:.24;transform:rotate(15deg)}
+.av-centered::before{content:'';display:block;width:55px;height:55px;margin:0 auto 18px;background:url('/art/orbit-seal.svg') center/contain no-repeat;opacity:.85}
+.av-centered h2{letter-spacing:-1.3px}
+.av-centered .av-eyebrow{letter-spacing:2.5px}
+.av-portrait-layer{position:relative;min-width:0}
+.av-portrait-layer .av-portrait-seal{position:absolute;left:-35px;bottom:38px;width:120px;height:120px;max-width:none;filter:drop-shadow(0 4px 8px #694b2e16)}
+.av-layout .av-hero-image{border-radius:110px 8px 8px 8px;border:1px solid #ad895944;padding:6px;background:#fff5e680;box-shadow:12px 12px 0 #d9b98f33}
+.av-about-copy{background:#d4b3938c;border:1px solid #c49f7255;border-radius:0;padding:40px}
+.av-layout .av-about-image{border-radius:0;border:1px solid #b9946a55;padding:7px;background:#fff6e655}
+.av-three article{background:#fff6e418;padding:12px}
+.av-three article+article{padding-left:35px}
+.av-service-list{gap:0 45px}
+.av-service-list article{border:0;border-top:1px solid #ac875a66;border-radius:0;background:transparent;padding:26px 0}
+.av-intention{grid-template-columns:115px minmax(0,1fr) auto}
+.av-intention>.av-intention-emblem{width:115px;height:115px;object-fit:contain}
+.av-intention h2{font-family:Georgia,'Times New Roman',serif;font-size:39px;line-height:1.2}
+.av-symbol-art{position:relative;padding:30px}
+.av-symbol-art::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse,#c49b5930,transparent 68%);border:1px solid #b58b5233;border-radius:50%}
+.av-symbol-art img{position:relative;max-width:365px;width:100%;height:auto;max-height:none;filter:drop-shadow(0 4px 12px #74532616)}
+.av-soul-work-section article{background:#fff4de36;border:1px solid #f8ebcf66;border-radius:0}
+.av-faq details{border-color:#b5926f77}
+.av-layout .av-button{background:#a9764d;border-color:#a9764d;border-radius:1px}
+.av-layout .av-button:hover{background:#875b3d;border-color:#875b3d}
+.av-footer-section{border-top:1px solid #a67e4c66}
+.av-footer-section .av-footer{padding-top:10px}
+.av-footer-section .av-brand{font-size:30px}
+.av-footer-section .av-eyebrow{letter-spacing:2.2px}
+@media(max-width:1100px){.av-pillars-section::before{width:130px;height:130px;left:-45px;opacity:.24}.av-offerings-section::after{width:130px;height:130px;right:-40px}.av-intention{grid-template-columns:95px minmax(0,1fr);gap:25px}.av-intention>.av-intention-emblem{width:95px;height:95px}.av-intention>.av-button{grid-column:2;justify-self:start}}
+@media(max-width:767px){.av-section{background-size:auto,850px auto}.av-introduction-section::after,.av-soul-work-section::after,.av-enquiries-section::after,.av-footer-section::before{width:230px;height:230px;opacity:.16}.av-pillars-section::before,.av-offerings-section::after{display:none}.av-centered::before{width:48px;height:48px;margin-bottom:15px}.av-centered h2{letter-spacing:-.7px}.av-portrait-layer{width:100%}.av-portrait-layer .av-portrait-seal{width:95px;height:95px;left:12px;bottom:40px}.av-layout .av-hero-image{border-radius:75px 6px 6px 6px;box-shadow:none}.av-about-copy{padding:28px}.av-three article{padding:0}.av-three article+article{padding:27px 0 0}.av-service-list{gap:0}.av-service-list article{padding:23px 0}.av-intention{grid-template-columns:1fr;text-align:center}.av-intention>.av-intention-emblem{width:105px;height:105px;margin:auto}.av-intention>.av-button{grid-column:1;justify-self:center}.av-intention h2{font-size:33px}.av-symbol-art{padding:20px;max-width:330px;margin:auto}.av-symbol-art img{max-width:280px}.av-footer-section .av-brand{font-size:27px}}
+@media(prefers-reduced-motion:reduce){.av-layout *{scroll-behavior:auto;transition:none!important}}
