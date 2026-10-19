@@ -24,8 +24,8 @@
 .av-enquiries-section::after{left:-65px;bottom:-10px;opacity:.28}
 .av-footer-section::before{right:-85px;bottom:-85px;transform:scaleX(-1);opacity:.22}
 .av-pillars-section::before{content:'';position:absolute;left:-50px;top:50%;transform:translateY(-50%) rotate(-12deg);width:180px;height:180px;background:url('/art/generated/celestial-eye.png') center/contain no-repeat;opacity:.45}
-.av-offerings-section::after{content:'';position:absolute;right:-35px;top:30px;width:180px;height:180px;background:url('/art/orbit-seal.svg') center/contain no-repeat;opacity:.24;transform:rotate(15deg)}
-.av-centered::before{content:'';display:block;width:55px;height:55px;margin:0 auto 18px;background:url('/art/orbit-seal.svg') center/contain no-repeat;opacity:.85}
+.av-offerings-section::after{content:'';position:absolute;right:-35px;top:30px;width:180px;height:180px;background:url('/art/orbit-seal.svg?v=full-circle-2') center/contain no-repeat;opacity:.24;transform:rotate(15deg)}
+.av-centered::before{content:'';display:block;width:55px;height:55px;margin:0 auto 18px;background:url('/art/orbit-seal.svg?v=full-circle-2') center/contain no-repeat;opacity:.85}
 .av-centered h2{letter-spacing:-1.3px}
 .av-centered .av-eyebrow{letter-spacing:2.5px}
 .av-portrait-layer{position:relative;min-width:0}
