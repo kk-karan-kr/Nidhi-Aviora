@@ -1,1 +1,9 @@
-{"name":"niddhi-aviora","version":"1.0.0","private":true,"scripts":{"dev":"node server.cjs","start":"node server.cjs"}}
+{
+  "name": "niddhi-aviora-hypnotherapy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.cjs",
+    "start": "node server.cjs"
+  }
+}

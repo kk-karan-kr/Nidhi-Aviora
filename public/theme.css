@@ -99,7 +99,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0}
 @media(max-width:430px){.av-form-row{grid-template-columns:1fr;gap:0}.av-brand{font-size:24px}.av-brand small{font-size:6px}.av-footer .av-brand{font-size:26px}.av-hero-copy h1{font-size:46px}.av-layout .av-hero-image{height:370px}.av-layout h2{font-size:35px}.av-footer{gap:28px 20px}.av-copyright{flex-direction:column;align-items:flex-start}.av-announcement strong{font-size:19px}.av-announcement>a{font-size:8px;letter-spacing:.5px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 
-/* Original Niddhi Aviora skin: CSS paper surfaces and hand-authored contour artwork. */
+/* Original Niddhi Aviora Hypnotherapy skin: CSS paper surfaces and hand-authored contour artwork. */
 body{background:#fcf4e8;color:#3c302b;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
 .av-section{position:relative;background-color:#fcf4e8;background-image:radial-gradient(ellipse at 12% 12%,#dfbb8f15,transparent 62%),repeating-linear-gradient(16deg,#71543903 0 1px,transparent 1px 7px)}
 .av-announcement-section{background:#d7baa1}

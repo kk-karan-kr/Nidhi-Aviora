@@ -1,4 +1,4 @@
-# Niddhi Aviora
+# Niddhi Aviora Hypnotherapy
 
 Run `npm run dev` and open http://localhost:3000. No dependency installation or build is required. The server serves only `public/`. Vercel's Other preset uses the included `vercel.json`, with `public` as its output directory.
 

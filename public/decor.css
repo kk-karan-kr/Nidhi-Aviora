@@ -1,5 +1,5 @@
-/* Bespoke image-generated textures and ornamentation for Niddhi Aviora. */
-.av-section{--paper-wash:#fff8e966;background-image:linear-gradient(var(--paper-wash),var(--paper-wash)),url('/art/generated/handmade-paper.png');background-size:auto,1100px auto;background-repeat:repeat;background-position:center}
+/* Bespoke image-generated textures and ornamentation for Niddhi Aviora Hypnotherapy. */
+.av-section{--paper-wash:#fff8e966;background-image:linear-gradient(var(--paper-wash),var(--paper-wash)),radial-gradient(ellipse at 22% 15%,#fffaf033,transparent 65%),repeating-linear-gradient(96deg,#77583906 0 1px,transparent 1px 7px),url('/art/generated/handmade-paper.png');background-size:auto,100% 100%,9px 100%,1450px auto;background-repeat:repeat;background-position:center,center,left top,35% 20%}
 .av-section:not(.av-navigation-section){overflow:hidden}
 .av-section>.av-layout{position:relative;z-index:1}
 .av-announcement-section{background-image:linear-gradient(#c6a589cc,#c6a589cc),url('/art/generated/handmade-paper.png')}
@@ -24,8 +24,8 @@
 .av-enquiries-section::after{left:-65px;bottom:-10px;opacity:.28}
 .av-footer-section::before{right:-85px;bottom:-85px;transform:scaleX(-1);opacity:.22}
 .av-pillars-section::before{content:'';position:absolute;left:-50px;top:50%;transform:translateY(-50%) rotate(-12deg);width:180px;height:180px;background:url('/art/generated/celestial-eye.png') center/contain no-repeat;opacity:.45}
-.av-offerings-section::after{content:'';position:absolute;right:-35px;top:30px;width:180px;height:180px;background:url('/art/orbit-seal.svg?v=full-circle-2') center/contain no-repeat;opacity:.24;transform:rotate(15deg)}
-.av-centered::before{content:'';display:block;width:55px;height:55px;margin:0 auto 18px;background:url('/art/orbit-seal.svg?v=full-circle-2') center/contain no-repeat;opacity:.85}
+.av-offerings-section::after{content:'';position:absolute;right:-35px;top:30px;width:180px;height:180px;background:url('/art/orbit-seal.svg?v=brand-complete-3') center/contain no-repeat;opacity:.24;transform:rotate(15deg)}
+.av-centered::before{content:'';display:block;width:55px;height:55px;margin:0 auto 18px;background:url('/art/orbit-seal.svg?v=brand-complete-3') center/contain no-repeat;opacity:.85}
 .av-centered h2{letter-spacing:-1.3px}
 .av-centered .av-eyebrow{letter-spacing:2.5px}
 .av-portrait-layer{position:relative;min-width:0}
@@ -52,5 +52,34 @@
 .av-footer-section .av-brand{font-size:30px}
 .av-footer-section .av-eyebrow{letter-spacing:2.2px}
 @media(max-width:1100px){.av-pillars-section::before{width:130px;height:130px;left:-45px;opacity:.24}.av-offerings-section::after{width:130px;height:130px;right:-40px}.av-intention{grid-template-columns:95px minmax(0,1fr);gap:25px}.av-intention>.av-intention-emblem{width:95px;height:95px}.av-intention>.av-button{grid-column:2;justify-self:start}}
-@media(max-width:767px){.av-section{background-size:auto,850px auto}.av-introduction-section::after,.av-soul-work-section::after,.av-enquiries-section::after,.av-footer-section::before{width:230px;height:230px;opacity:.16}.av-pillars-section::before,.av-offerings-section::after{display:none}.av-centered::before{width:48px;height:48px;margin-bottom:15px}.av-centered h2{letter-spacing:-.7px}.av-portrait-layer{width:100%}.av-portrait-layer .av-portrait-seal{width:95px;height:95px;left:12px;bottom:40px}.av-layout .av-hero-image{border-radius:75px 6px 6px 6px;box-shadow:none}.av-about-copy{padding:28px}.av-three article{padding:0}.av-three article+article{padding:27px 0 0}.av-service-list{gap:0}.av-service-list article{padding:23px 0}.av-intention{grid-template-columns:1fr;text-align:center}.av-intention>.av-intention-emblem{width:105px;height:105px;margin:auto}.av-intention>.av-button{grid-column:1;justify-self:center}.av-intention h2{font-size:33px}.av-symbol-art{padding:20px;max-width:330px;margin:auto}.av-symbol-art img{max-width:280px}.av-footer-section .av-brand{font-size:27px}}
+@media(max-width:767px){.av-section{background-size:auto,100% 100%,9px 100%,1050px auto}.av-introduction-section::after,.av-soul-work-section::after,.av-enquiries-section::after,.av-footer-section::before{width:230px;height:230px;opacity:.16}.av-pillars-section::before,.av-offerings-section::after{display:none}.av-centered::before{width:48px;height:48px;margin-bottom:15px}.av-centered h2{letter-spacing:-.7px}.av-portrait-layer{width:100%}.av-portrait-layer .av-portrait-seal{width:95px;height:95px;left:12px;bottom:40px}.av-layout .av-hero-image{border-radius:75px 6px 6px 6px;box-shadow:none}.av-about-copy{padding:28px}.av-three article{padding:0}.av-three article+article{padding:27px 0 0}.av-service-list{gap:0}.av-service-list article{padding:23px 0}.av-intention{grid-template-columns:1fr;text-align:center}.av-intention>.av-intention-emblem{width:105px;height:105px;margin:auto}.av-intention>.av-button{grid-column:1;justify-self:center}.av-intention h2{font-size:33px}.av-symbol-art{padding:20px;max-width:330px;margin:auto}.av-symbol-art img{max-width:280px}.av-footer-section .av-brand{font-size:27px}}
 @media(prefers-reduced-motion:reduce){.av-layout *{scroll-behavior:auto;transition:none!important}}
+
+/* Keep the expanded client name comfortably inside the existing brand areas. */
+.av-brand-name{display:block;white-space:normal}
+.av-brand-name .av-brand-service{display:block;margin-top:5px;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:12px;font-weight:400;line-height:1.3;letter-spacing:2px;text-transform:uppercase}
+.av-brand-name small{margin-top:5px}
+.av-hero-service{display:block;font-size:.57em;line-height:1.3;letter-spacing:.01em;margin-top:8px}
+.av-footer-section .av-brand{max-width:100%;white-space:normal}
+@media(max-width:767px){.av-brand-name .av-brand-service{font-size:10px;letter-spacing:1.6px}.av-brand-name small{font-size:6px}.av-hero-service{font-size:.61em}}
+
+/* A visibly different textile/plaster surface, replacing the earlier paper wash. */
+.av-section{--surface:#eee0c8;--surface-light:#fff9e85c;background-color:var(--surface);background-image:url('/art/linen-weave.svg?v=soft-lines-5'),url('/art/plaster-grain.svg'),radial-gradient(ellipse at 18% 10%,var(--surface-light),transparent 72%);background-size:480px 480px,600px 600px,100% 100%;background-position:left top,center,center;background-repeat:repeat,repeat,no-repeat}
+.av-announcement-section{--surface:#bc9477;--surface-light:#ead9bf44}
+.av-navigation-section{background:#fbf5e9}
+.av-welcome-section{--surface:#e9d8b8;--surface-light:#fff9eaa0}
+.av-introduction-section{--surface:#faf3e6;--surface-light:#ffffff66}
+.av-pillars-section{--surface:#ceab8d;--surface-light:#f9e3c766}
+.av-offerings-section{--surface:#eee2ca;--surface-light:#fffaf2aa}
+.av-process-section{--surface:#d8b99b;--surface-light:#f6e3c55c}
+.av-intention-section{--surface:#f7ecda;--surface-light:#ffffff70}
+.av-hypnotherapy-section{--surface:#f3e4cc;--surface-light:#fff9ee99}
+.av-soul-work-section{--surface:#c7a58d;--surface-light:#f4ddbf66;background-size:480px 480px,800px 800px,100% 100%}
+.av-regression-section{--surface:#f8f0e1;--surface-light:#ffffff88}
+.av-aura-section{--surface:#dfc69f;--surface-light:#fff3d66b}
+.av-questions-section{--surface:#f7efdf;--surface-light:#ffffff88}
+.av-enquiries-section{--surface:#d4b394;--surface-light:#fcebd080}
+.av-footer-section,.av-copyright-section{--surface:#e8d5b8;--surface-light:#fff3d44d}
+.av-about-copy{background:#d1ae8c88}
+.av-service-list article{background:#fff9eb33}
+@media(max-width:767px){.av-section{background-size:360px 360px,450px 450px,100% 100%}.av-navigation-section{background:#fbf5e9}}
